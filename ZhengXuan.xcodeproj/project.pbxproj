@@ -24,6 +24,13 @@
 		B0000000000000000000000F /* DecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000012 /* DecisionView.swift */; };
 		B00000000000000000000010 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000013 /* ExploreView.swift */; };
 		B00000000000000000000011 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000014 /* ProfileView.swift */; };
+		B00000000000000000000012 /* ModelDerivedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000018 /* ModelDerivedValues.swift */; };
+		B00000000000000000000013 /* CategoryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000019 /* CategoryEditorView.swift */; };
+		B00000000000000000000014 /* RatingFieldEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001A /* RatingFieldEditorView.swift */; };
+		B00000000000000000000015 /* ItemEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001B /* ItemEditorView.swift */; };
+		B00000000000000000000016 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001C /* ItemDetailView.swift */; };
+		B00000000000000000000017 /* TagManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001D /* TagManagementView.swift */; };
+		B00000000000000000000018 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001E /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,15 @@
 		C00000000000000000000013 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		C00000000000000000000014 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C00000000000000000000015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C00000000000000000000016 /* PROGRESS_LOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROGRESS_LOG.md; sourceTree = "<group>"; };
+		C00000000000000000000017 /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
+		C00000000000000000000018 /* ModelDerivedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDerivedValues.swift; sourceTree = "<group>"; };
+		C00000000000000000000019 /* CategoryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditorView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001A /* RatingFieldEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingFieldEditorView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001B /* ItemEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditorView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001C /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001D /* TagManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagementView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,8 @@
 				D00000000000000000000008 /* Config */,
 				D00000000000000000000020 /* ZhengXuan */,
 				C00000000000000000000015 /* README.md */,
+				C00000000000000000000016 /* PROGRESS_LOG.md */,
+				C00000000000000000000017 /* ARCHITECTURE.md */,
 				D00000000000000000000006 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +133,7 @@
 				C0000000000000000000000C /* ZXItem.swift */,
 				C0000000000000000000000D /* ExperienceRecord.swift */,
 				C0000000000000000000000E /* ExperienceFieldValue.swift */,
+				C00000000000000000000018 /* ModelDerivedValues.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +146,8 @@
 				D00000000000000000000015 /* Decision */,
 				D00000000000000000000016 /* Explore */,
 				D00000000000000000000017 /* Profile */,
+				D00000000000000000000021 /* Items */,
+				D00000000000000000000022 /* Search */,
 				D00000000000000000000018 /* Shared */,
 			);
 			path = Features;
@@ -144,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				C00000000000000000000011 /* CategoryListView.swift */,
+				C00000000000000000000019 /* CategoryEditorView.swift */,
+				C0000000000000000000001A /* RatingFieldEditorView.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -168,8 +191,26 @@
 			isa = PBXGroup;
 			children = (
 				C00000000000000000000014 /* ProfileView.swift */,
+				C0000000000000000000001D /* TagManagementView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000021 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000001B /* ItemEditorView.swift */,
+				C0000000000000000000001C /* ItemDetailView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000022 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000001E /* SearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		D00000000000000000000018 /* Shared */ = {
@@ -285,6 +326,13 @@
 				B0000000000000000000000F /* DecisionView.swift in Sources */,
 				B00000000000000000000010 /* ExploreView.swift in Sources */,
 				B00000000000000000000011 /* ProfileView.swift in Sources */,
+				B00000000000000000000012 /* ModelDerivedValues.swift in Sources */,
+				B00000000000000000000013 /* CategoryEditorView.swift in Sources */,
+				B00000000000000000000014 /* RatingFieldEditorView.swift in Sources */,
+				B00000000000000000000015 /* ItemEditorView.swift in Sources */,
+				B00000000000000000000016 /* ItemDetailView.swift in Sources */,
+				B00000000000000000000017 /* TagManagementView.swift in Sources */,
+				B00000000000000000000018 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,4 +534,3 @@
 	};
 	rootObject = D00000000000000000000001 /* Project object */;
 }
-
