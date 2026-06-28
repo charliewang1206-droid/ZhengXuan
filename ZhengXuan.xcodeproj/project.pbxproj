@@ -31,6 +31,7 @@
 		B00000000000000000000016 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001C /* ItemDetailView.swift */; };
 		B00000000000000000000017 /* TagManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001D /* TagManagementView.swift */; };
 		B00000000000000000000018 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001E /* SearchView.swift */; };
+		B00000000000000000000019 /* ExperienceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000001F /* ExperienceEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		C0000000000000000000001C /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		C0000000000000000000001D /* TagManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagementView.swift; sourceTree = "<group>"; };
 		C0000000000000000000001E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C0000000000000000000001F /* ExperienceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				D00000000000000000000016 /* Explore */,
 				D00000000000000000000017 /* Profile */,
 				D00000000000000000000021 /* Items */,
+				D00000000000000000000023 /* Experiences */,
 				D00000000000000000000022 /* Search */,
 				D00000000000000000000018 /* Shared */,
 			);
@@ -211,6 +214,14 @@
 				C0000000000000000000001E /* SearchView.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000023 /* Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000001F /* ExperienceEditorView.swift */,
+			);
+			path = Experiences;
 			sourceTree = "<group>";
 		};
 		D00000000000000000000018 /* Shared */ = {
@@ -333,6 +344,7 @@
 				B00000000000000000000016 /* ItemDetailView.swift in Sources */,
 				B00000000000000000000017 /* TagManagementView.swift in Sources */,
 				B00000000000000000000018 /* SearchView.swift in Sources */,
+				B00000000000000000000019 /* ExperienceEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

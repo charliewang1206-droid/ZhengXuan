@@ -68,18 +68,22 @@ struct HomeView: View {
         .navigationTitle(AppConfiguration.displayName)
         .sheet(isPresented: $showingQuickRecord) {
             NavigationStack {
-                ContentUnavailableView(
-                    "还没有可记录的条目",
-                    systemImage: "square.and.pencil",
-                    description: Text("先建立分类和条目后，就能在这里快速留下体验。")
-                )
-                .navigationTitle(AppText.Action.quickRecord)
-                .toolbar {
-                    ToolbarItem(placement: .topBarTrailing) {
-                        Button("完成") {
-                            showingQuickRecord = false
+                if activeRecentItems.isEmpty {
+                    ContentUnavailableView(
+                        "还没有可记录的条目",
+                        systemImage: "square.and.pencil",
+                        description: Text("先建立分类和条目后，就能在这里快速留下体验。")
+                    )
+                    .navigationTitle(AppText.Action.quickRecord)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button("完成") {
+                                showingQuickRecord = false
+                            }
                         }
                     }
+                } else {
+                    ExperienceEditorView()
                 }
             }
         }
