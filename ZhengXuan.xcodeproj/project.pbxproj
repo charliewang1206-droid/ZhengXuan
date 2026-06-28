@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* ZhengXuanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000004 /* ZhengXuanApp.swift */; };
+		B00000000000000000000002 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000005 /* AppConfiguration.swift */; };
+		B00000000000000000000003 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000006 /* RootTabView.swift */; };
+		B00000000000000000000004 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000007 /* AppTheme.swift */; };
+		B00000000000000000000005 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000008 /* Enums.swift */; };
+		B00000000000000000000006 /* ZXCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000009 /* ZXCategory.swift */; };
+		B00000000000000000000007 /* RatingFieldDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000A /* RatingFieldDefinition.swift */; };
+		B00000000000000000000008 /* ZXTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000B /* ZXTag.swift */; };
+		B00000000000000000000009 /* ZXItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000C /* ZXItem.swift */; };
+		B0000000000000000000000A /* ExperienceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000D /* ExperienceRecord.swift */; };
+		B0000000000000000000000B /* ExperienceFieldValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000E /* ExperienceFieldValue.swift */; };
+		B0000000000000000000000C /* PlaceholderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000F /* PlaceholderRow.swift */; };
+		B0000000000000000000000D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000010 /* HomeView.swift */; };
+		B0000000000000000000000E /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000011 /* CategoryListView.swift */; };
+		B0000000000000000000000F /* DecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000012 /* DecisionView.swift */; };
+		B00000000000000000000010 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000013 /* ExploreView.swift */; };
+		B00000000000000000000011 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000014 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C00000000000000000000001 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		C00000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00000000000000000000003 /* ZhengXuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhengXuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00000000000000000000004 /* ZhengXuanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhengXuanApp.swift; sourceTree = "<group>"; };
+		C00000000000000000000005 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		C00000000000000000000006 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		C00000000000000000000007 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		C00000000000000000000008 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C00000000000000000000009 /* ZXCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXCategory.swift; sourceTree = "<group>"; };
+		C0000000000000000000000A /* RatingFieldDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingFieldDefinition.swift; sourceTree = "<group>"; };
+		C0000000000000000000000B /* ZXTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXTag.swift; sourceTree = "<group>"; };
+		C0000000000000000000000C /* ZXItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXItem.swift; sourceTree = "<group>"; };
+		C0000000000000000000000D /* ExperienceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRecord.swift; sourceTree = "<group>"; };
+		C0000000000000000000000E /* ExperienceFieldValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceFieldValue.swift; sourceTree = "<group>"; };
+		C0000000000000000000000F /* PlaceholderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderRow.swift; sourceTree = "<group>"; };
+		C00000000000000000000010 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C00000000000000000000011 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		C00000000000000000000012 /* DecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionView.swift; sourceTree = "<group>"; };
+		C00000000000000000000013 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C00000000000000000000014 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C00000000000000000000015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000003 /* ZhengXuan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000007 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000008 /* Config */,
+				D00000000000000000000020 /* ZhengXuan */,
+				C00000000000000000000015 /* README.md */,
+				D00000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000008 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000001 /* AppConfig.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000009 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000004 /* ZhengXuanApp.swift */,
+				C00000000000000000000005 /* AppConfiguration.swift */,
+				C00000000000000000000006 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0000000000000000000000A /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000007 /* AppTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		D0000000000000000000000B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000008 /* Enums.swift */,
+				C00000000000000000000009 /* ZXCategory.swift */,
+				C0000000000000000000000A /* RatingFieldDefinition.swift */,
+				C0000000000000000000000B /* ZXTag.swift */,
+				C0000000000000000000000C /* ZXItem.swift */,
+				C0000000000000000000000D /* ExperienceRecord.swift */,
+				C0000000000000000000000E /* ExperienceFieldValue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0000000000000000000000C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000013 /* Home */,
+				D00000000000000000000014 /* Categories */,
+				D00000000000000000000015 /* Decision */,
+				D00000000000000000000016 /* Explore */,
+				D00000000000000000000017 /* Profile */,
+				D00000000000000000000018 /* Shared */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000013 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000010 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000014 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000011 /* CategoryListView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000015 /* Decision */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000012 /* DecisionView.swift */,
+			);
+			path = Decision;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000016 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000013 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000017 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000014 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000018 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000F /* PlaceholderRow.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000002 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000020 /* ZhengXuan */ = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000009 /* App */,
+				D0000000000000000000000A /* Design */,
+				D0000000000000000000000B /* Models */,
+				D0000000000000000000000C /* Features */,
+				D00000000000000000000019 /* Resources */,
+			);
+			path = ZhengXuan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00000000000000000000002 /* ZhengXuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000003 /* Build configuration list for PBXNativeTarget "ZhengXuan" */;
+			buildPhases = (
+				D00000000000000000000003 /* Sources */,
+				D00000000000000000000004 /* Frameworks */,
+				D00000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhengXuan;
+			productName = ZhengXuan;
+			productReference = C00000000000000000000003 /* ZhengXuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D00000000000000000000002 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F00000000000000000000001 /* Build configuration list for PBXProject "ZhengXuan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000007;
+			productRefGroup = D00000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00000000000000000000002 /* ZhengXuan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000001 /* ZhengXuanApp.swift in Sources */,
+				B00000000000000000000002 /* AppConfiguration.swift in Sources */,
+				B00000000000000000000003 /* RootTabView.swift in Sources */,
+				B00000000000000000000004 /* AppTheme.swift in Sources */,
+				B00000000000000000000005 /* Enums.swift in Sources */,
+				B00000000000000000000006 /* ZXCategory.swift in Sources */,
+				B00000000000000000000007 /* RatingFieldDefinition.swift in Sources */,
+				B00000000000000000000008 /* ZXTag.swift in Sources */,
+				B00000000000000000000009 /* ZXItem.swift in Sources */,
+				B0000000000000000000000A /* ExperienceRecord.swift in Sources */,
+				B0000000000000000000000B /* ExperienceFieldValue.swift in Sources */,
+				B0000000000000000000000C /* PlaceholderRow.swift in Sources */,
+				B0000000000000000000000D /* HomeView.swift in Sources */,
+				B0000000000000000000000E /* CategoryListView.swift in Sources */,
+				B0000000000000000000000F /* DecisionView.swift in Sources */,
+				B00000000000000000000010 /* ExploreView.swift in Sources */,
+				B00000000000000000000011 /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00000000000000000000001 /* AppConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ZhengXuan/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZX_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00000000000000000000001 /* AppConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ZhengXuan/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZX_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000001 /* Build configuration list for PBXProject "ZhengXuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000004 /* Debug */,
+				F00000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000003 /* Build configuration list for PBXNativeTarget "ZhengXuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000006 /* Debug */,
+				F00000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00000000000000000000001 /* Project object */;
+}
+
